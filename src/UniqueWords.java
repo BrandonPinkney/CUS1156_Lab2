@@ -9,6 +9,7 @@ public class UniqueWords
    */
    public static int countUnique(ArrayList<String> list)
    {
+	  System.out.println(list.size());
 	  int count = 0;
 	  
       for (int i = 0; i < list.size(); i++)
@@ -18,6 +19,7 @@ public class UniqueWords
 		 }
       }
 	  return count;
+	  count++;
    }
 
    public static void main(String[] args)
